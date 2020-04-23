@@ -8,9 +8,9 @@
     "start": "react-native start",
     "test": "jest",
     "lint": "eslint .",
-    "pregenerate": "react-native bundle --platform android --dev false --entry-file index.js --bundle-output android/app/src/main/assets/index.android.bundle --assets-dest android/app/src/main/res/",
-    "debug": "cd android && ./gradlew assembleRelease",
-    "release": "cd android && ./gradlew assembleRelease"
+    "pregenerate": "react-native bundle --platform android --dev false --entry-file index.js --bundle-output android/app/src/main/assets/index.android.bundle",
+    "debug": "cd android && ./gradlew assembleRelease && xdg-open app/build/outputs/apk/debug",
+    "release": "cd android && ./gradlew assembleRelease && xdg-open app/build/outputs/apk/release"
   },
   "dependencies": {
     "appcenter": "3.0.2",
