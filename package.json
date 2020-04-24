@@ -9,6 +9,7 @@
     "test": "jest",
     "lint": "eslint .",
     "appcenter": "appcenter",
+    "prepregenerate": "yarn appcenter codepush release-react -a shubham.kakkar98/CodePush -d CodePush-Android",
     "pregenerate": "react-native bundle --platform android --dev false --entry-file index.js --bundle-output android/app/src/main/assets/index.android.bundle",
     "debug": "cd android && ./gradlew assembleRelease && xdg-open app/build/outputs/apk/debug",
     "release": "cd android && ./gradlew assembleRelease && xdg-open app/build/outputs/apk/release"
