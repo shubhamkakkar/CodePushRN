@@ -10,7 +10,7 @@ const App = () => {
     <>
       <StatusBar barStyle="dark-content" />
       <Text style={styles.sectionDescription}>
-        Edit
+        Edit shubham
          </Text>
     </>
   );
