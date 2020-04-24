@@ -8,6 +8,7 @@
     "start": "react-native start",
     "test": "jest",
     "lint": "eslint .",
+    "appcenter": "appcenter",
     "pregenerate": "react-native bundle --platform android --dev false --entry-file index.js --bundle-output android/app/src/main/assets/index.android.bundle",
     "debug": "cd android && ./gradlew assembleRelease && xdg-open app/build/outputs/apk/debug",
     "release": "cd android && ./gradlew assembleRelease && xdg-open app/build/outputs/apk/release"
@@ -15,9 +16,11 @@
   "dependencies": {
     "appcenter": "3.0.2",
     "appcenter-analytics": "3.0.2",
+    "appcenter-cli": "^2.5.0",
     "appcenter-crashes": "3.0.2",
     "react": "16.11.0",
-    "react-native": "0.62.2"
+    "react-native": "0.62.2",
+    "react-native-code-push": "^6.2.0"
   },
   "devDependencies": {
     "@babel/core": "^7.6.2",
