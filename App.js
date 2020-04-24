@@ -1,31 +1,17 @@
 import React from 'react';
-import {
-  SafeAreaView,
-  StyleSheet,
-  ScrollView,
-  View,
-  Text,
-  StatusBar,
-} from 'react-native';
-
+import { StatusBar, StyleSheet, Text } from 'react-native';
 import codePush from "react-native-code-push";
+import { Colors } from 'react-native/Libraries/NewAppScreen';
 
-import {
-  Header,
-  LearnMoreLinks,
-  Colors,
-  DebugInstructions,
-  ReloadInstructions,
-} from 'react-native/Libraries/NewAppScreen';
+
 
 const App = () => {
   return (
     <>
       <StatusBar barStyle="dark-content" />
       <Text style={styles.sectionDescription}>
-        Edit <Text style={styles.highlight}>App.js</Text> to change this
-                screen and then come back to see your edits.
-              </Text>
+        Edit
+         </Text>
     </>
   );
 };
