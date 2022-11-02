@@ -15,13 +15,13 @@
     "release": "cd android && ./gradlew assembleRelease && xdg-open app/build/outputs/apk/release"
   },
   "dependencies": {
-    "appcenter": "3.0.2",
-    "appcenter-analytics": "3.0.2",
-    "appcenter-cli": "^2.5.0",
-    "appcenter-crashes": "3.0.2",
+    "appcenter": "4.4.5",
+    "appcenter-analytics": "4.4.5",
+    "appcenter-cli": "^2.11.0",
+    "appcenter-crashes": "4.4.5",
     "react": "16.11.0",
     "react-native": "0.62.2",
-    "react-native-code-push": "^6.2.0"
+    "react-native-code-push": "^7.0.5"
   },
   "devDependencies": {
     "@babel/core": "^7.6.2",
